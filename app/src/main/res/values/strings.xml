@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">honda palembang</string>
+    <string name="title_activity_bimamaps">bimamaps</string>
+    <string name="title_activity_plajumaps">plajumaps</string>
+    <string name="title_activity_kencanampas">kencanampas</string>
+    <string name="title_activity_lestarimaps">lestarimaps</string>
+    <string name="title_activity_mapsahas">Mapsahas</string>
+    <string name="title_activity_mapskm9">mapskm9</string>
+    <string name="title_activity_sakomaps">sakomaps</string>
+    <string name="title_activity_taamaps">taamaps</string>
+    <string name="title_activity_veteranmaps">veteranmaps</string>
+</resources>

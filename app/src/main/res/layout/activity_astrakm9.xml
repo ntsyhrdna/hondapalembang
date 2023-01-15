@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".astrakm9">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img_grid"
+            android:layout_width="411dp"
+            android:layout_height="379dp"
+            android:layout_margin="6dp"
+            android:background="#BFBFBF"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ahm" />
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_grid"
+            android:text="Kantor PT Astra Honda Motor KM9">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_grid"
+            android:text="Phone :0711-410693 \njam buka:Senin-sabtu 08.00-20.00 WIB\n Minggu 09.00-15.00 WIB ">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_grid"
+            android:text="Deskripsi : ">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_grid"
+            android:text="Perusahaan layanan purna jual terbaik motor Honda dengan jaringan dealer dan bengkel yang tersebar diseluruh wilayah Indonesia. Salah satu kantornya berada di Jl. Musi Raya No.13 Sako Kenten, Palembang. Kantor ini melayani pelanggan Astra motor untuk pembelian motor Honda baik jenis motor matik, bebek, Honda sport. Dealer ini juga melayani perawatan motor Honda seperti pembelian suku cadang (spare parts), ganti oli, apparel dan accessories motor Honda">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_lokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="130dp"
+                android:text="Lihat lokasi"
+                android:textSize="9dp"></Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".honda">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:padding="15dp"
+                android:layout_centerVertical="true"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo"
+                android:padding="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"></ImageView>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Honda Palembang"
+            android:textSize="23sp"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:padding="10dp">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bima"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:justificationMode="inter_word"
+                android:text="Kantor Bima Sakti "
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="58dp"
+                android:paddingTop="10dp"
+                android:text="Alamat: Jl. Jendral Sudirman 51-1 A Sumatera Selatan Kota Palembang"
+                android:textSize="15dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="150dp"
+                android:text="Detail"
+                android:textSize="9dp"></Button>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/plaju"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:justificationMode="inter_word"
+                android:text="Kantor Astra Plaju"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="58dp"
+                android:paddingTop="10dp"
+                android:text="Alamat: Jl. A.Yani 99 Sumatera Selatan Kota Palembang"
+                android:textSize="15dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_detail2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="150dp"
+                android:text="Detail"
+                android:textSize="9dp"></Button>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/kecana"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:justificationMode="inter_word"
+                android:text="Kantor Anugerah Kencana"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="58dp"
+                android:paddingTop="10dp"
+                android:text="Alamat: Jl. Jendral Sudirman 51-1 A Sumatera Selatan Kota Palembang"
+                android:textSize="15dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_detail3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="150dp"
+                android:text="Detail"
+                android:textSize="9dp"></Button>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/lestari"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:justificationMode="inter_word"
+                android:text="Kantor Lestari motorindo"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="58dp"
+                android:paddingTop="10dp"
+                android:text="Alamat: Jl. Jendral A.Yani 200-201 RT 005/001 Sumatera Selatan Kota Palembang"
+                android:textSize="15dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_detail4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="150dp"
+                android:text="Detail"
+                android:textSize="9dp"></Button>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/aha"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:justificationMode="inter_word"
+                android:text="Kantor HONDA AHASS 9512 Adiba Motor"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="58dp"
+                android:paddingTop="10dp"
+                android:text="Alamat: Jalan KH A. Wahid Hasyim No.1748, RT.32, Tuan Kentang, Seberang Ulu I, Kota Palembang, Sumatera Selatan "
+                android:textSize="15dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_detail5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="150dp"
+                android:text="Detail"
+                android:textSize="9dp"></Button>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ahm"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:justificationMode="inter_word"
+                android:text="Kantor PT ASTRA HONDA MOTOR KM 9  "
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="58dp"
+                android:paddingTop="10dp"
+                android:text="Alamat: Kol. H. Burlian Sukarami, Palembang"
+                android:textSize="15dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_detail6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="150dp"
+                android:text="Detail"
+                android:textSize="9dp"></Button>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/kenten"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:text="Kantor Astra Motor Sako Kenten "
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="58dp"
+                android:paddingTop="10dp"
+                android:text="Alamat: Jl. Musiraya No.13 Sumatera Selatan Kota Palembang"
+                android:textSize="15dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_detail7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="150dp"
+                android:text="Detail"
+                android:textSize="9dp"></Button>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/taa"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:text="Kantor Honda TAA Palembang"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="58dp"
+                android:paddingTop="10dp"
+                android:text="Alamat:Jalan Letjen Harun Sohar, Kebun Bunga, Sukarami, Kota Palembang "
+                android:textSize="15dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_detail8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="150dp"
+                android:text="Detail"
+                android:textSize="9dp"></Button>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/veteran1"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:text="Kantor Astra Motor Veteran"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="58dp"
+                android:paddingTop="10dp"
+                android:text="Alamat:Jl. Veteran no. 158-188, Palembang"
+                android:textSize="15dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_detail9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="150dp"
+                android:text="Detail"
+                android:textSize="9dp"></Button>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/angkasa"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:text="Kantor Angkasa Motor Honda Palembang"
+                android:textAllCaps="true"
+                android:textSize="15dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="80dp"
+                android:paddingLeft="58dp"
+                android:paddingTop="10dp"
+                android:text="Alamat:Jl. Srijaya Negara Bukit Besar, Palembang, Sumatera Selatan"
+                android:textSize="15dp"></TextView>
+
+            <Button
+                android:id="@+id/btn_detail10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="150dp"
+                android:text="Detail"
+                android:textSize="9dp"></Button>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

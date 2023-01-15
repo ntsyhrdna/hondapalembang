@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lestarimotorindo">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/img_grid"
+            android:layout_width="411dp"
+            android:layout_height="379dp"
+            android:layout_margin="6dp"
+            android:background="#BFBFBF"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lestari" />
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_grid"
+            android:text="">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_grid"
+            android:text="Phone : 0711-321964\njam buka:Senin-sabtu 07.00-17.00 WIB \nMinggu 08.00-14.00 WIB ">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_grid"
+            android:text="Deskripsi : ">
+        </TextView>
+        <TextView
+            android:id="@+id/tv_4"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_grid"
+            android:text="Dealer resmi motor Honda Kota Palembang. Melalui dealer ini, Honda menawarkan produk-produk motor terbaru mulai dari motor bebek honda seperti Honda Supra Fit dan Supra X, motor matic seperti Honda Beat, Varia dan PCX, hingga motor besar seperti Honda Mega Pro dan CBR 250. Dealer motor ini manawarkan dan jual motor honda Kota Palembang dengan harga terjangkau, bahkan terdapat diskon pembelian, potongan harga, promo honda, dan bonus lain dari setiap pembelian">
+        </TextView>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_lokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="130dp"
+                android:text="Lihat lokasi"
+                android:textSize="9dp"></Button>
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
